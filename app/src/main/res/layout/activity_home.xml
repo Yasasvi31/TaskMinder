@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:text="Hey Anne,"
+            android:textColor="@color/blue"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="5dp"
+            android:text="You have 6 tasks this week."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <SearchView
+            android:id="@+id/searchhome"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="55dp"
+            android:background="@drawable/search_background"
+            android:queryHint="Search tasks here" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="15sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="132dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/todo"
+                tools:layout_margin="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="15sp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/progress" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_margin="15sp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/done" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ToDO"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="In progress"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Done"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:text="Today's Tasks"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:background="@drawable/background"
+            android:padding="20sp"
+            android:text="@string/task1"
+            android:textColor="@color/design_default_color_primary_variant"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:background="@drawable/background"
+            android:padding="20sp"
+            android:text="@string/task2"
+            android:textColor="@color/design_default_color_primary_variant"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/footer"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/homeimage1"
+                android:layout_width="94dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/listimage1"
+                android:layout_width="94dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tasks" />
+
+            <ImageView
+                android:id="@+id/favimage1"
+                android:layout_width="94dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/calender" />
+
+            <ImageView
+                android:id="@+id/profileimage1"
+                android:layout_width="92dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/profile2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

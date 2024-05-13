@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Labexam4</string>
+    <string name="app_name">TaskMinder</string>
+    <string name="welcome">Welcome To\nTaskMinder</string>
+    <string name="w_note">Effortlessly organize tasks and boost your productivity.</string>
+    <string name="getStart">Get Started</string>
+    <string name="user">Anne Perera</string>
+    <string name="email">anneperera111@gmail.com</string>
+    <string name="edit">Edit</string>
+    <string name="aboutus">About Us</string>
+    <string name="support">Support</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="taskAdd">Add task</string>
+    <string name="task1">05/12\nDSA lab exam 02</string>
+    <string name="task2">05/12\nBirthDay Party</string>
 </resources>
