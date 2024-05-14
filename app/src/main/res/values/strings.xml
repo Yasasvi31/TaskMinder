@@ -13,4 +13,7 @@
     <string name="taskAdd">Add task</string>
     <string name="task1">05/12\nDSA lab exam 02</string>
     <string name="task2">05/12\nBirthDay Party</string>
+    <string name="save">Save</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
