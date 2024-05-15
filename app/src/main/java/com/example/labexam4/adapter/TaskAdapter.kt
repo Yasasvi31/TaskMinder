@@ -32,7 +32,7 @@ class TaskAdapter:RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
     val differ = AsyncListDiffer(this,differCallback)
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TaskViewHolder {
         return TaskViewHolder(
-            TaskLayoutBinding.inflate(LayoutInflater.from(parent.context),parent)
+            TaskLayoutBinding.inflate(LayoutInflater.from(parent.context),parent, false)
         )
     }
 

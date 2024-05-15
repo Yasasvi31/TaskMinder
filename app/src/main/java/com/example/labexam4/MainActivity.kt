@@ -13,14 +13,13 @@ import com.example.labexam4.viewmodel.TaskViewModelFactory
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var taskViewModel: TaskViewModel
+    lateinit var taskViewModel:TaskViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        setupViewModel()
-
+       setupViewModel()
     }
 
     private fun setupViewModel(){

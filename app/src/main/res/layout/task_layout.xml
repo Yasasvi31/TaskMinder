@@ -6,66 +6,68 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        app:cardElevation="6dp"
-        app:cardCornerRadius="10dp">
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="6dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
             android:background="@drawable/blue_border"
+            android:orientation="vertical"
             android:padding="16dp">
 
             <TextView
+                android:id="@+id/taskTitle"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:id="@+id/taskTitle"
                 android:layout_weight="200"
-                android:textColor="@color/black"
                 android:text="Task Title"
-                android:textStyle="bold"
-                android:textSize="18sp"/>
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/taskDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/taskDate"
                 android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
                 android:text="Date"
-                android:textSize="14sp"
-                android:textColor="@color/dark_blue"/>
+                android:textColor="@color/dark_blue"
+                android:textSize="14sp" />
 
             <TextView
+                android:id="@+id/taskStat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/taskStat"
                 android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
                 android:text="Status"
-                android:textSize="14sp"
-                android:textColor="@color/dark_blue"/>
+                android:textColor="@color/dark_blue"
+                android:textSize="14sp" />
 
             <TextView
+                android:id="@+id/taskPri"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/taskPri"
                 android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
                 android:text="Priority"
-                android:textSize="14sp"
-                android:textColor="@color/dark_blue"/>
+                android:textColor="@color/dark_blue"
+                android:textSize="14sp" />
 
             <TextView
+                android:id="@+id/taskDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/taskDesc"
                 android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
                 android:text="Description"
-                android:textSize="14sp"
-                android:textColor="@color/dark_blue"/>
+                android:textColor="@color/dark_blue"
+                android:textSize="14sp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

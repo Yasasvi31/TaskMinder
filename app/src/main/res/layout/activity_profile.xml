@@ -13,17 +13,11 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            app:srcCompat="@drawable/header" />
-
-        <ImageView
             android:id="@+id/imageView5"
             android:layout_width="179dp"
             android:layout_height="133dp"
             android:layout_gravity="center"
-            android:layout_marginTop="50sp"
+            android:layout_marginTop="80dp"
             app:srcCompat="@drawable/profile" />
 
         <TextView
@@ -52,14 +46,15 @@
             android:id="@+id/button2"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="75dp"
+            android:layout_marginLeft="85dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/Yellow"
             android:text="@string/edit"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:cornerRadius="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -183,7 +178,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="75dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="120dp"
             android:background="@drawable/footer"
             android:orientation="horizontal">
 

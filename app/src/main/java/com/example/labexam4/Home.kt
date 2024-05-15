@@ -1,6 +1,8 @@
 package com.example.labexam4
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +13,19 @@ class Home : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_home)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val taskIcon:ImageView = findViewById(R.id.listimage1)
+        taskIcon.setOnClickListener {
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
         }
+
+        val pIcon:ImageView = findViewById(R.id.profileimage1)
+        pIcon.setOnClickListener {
+            val intent = Intent(this,Profile::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }
