@@ -25,7 +25,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="200"
                 android:text="Task Title"
-                android:textColor="@color/black"
+                android:textColor="@color/dark_blue"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
                 android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
                 android:text="Date"
-                android:textColor="@color/dark_blue"
+                android:textColor="#152238"
                 android:textSize="14sp" />
 
             <TextView
@@ -46,7 +46,7 @@
                 android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
                 android:text="Status"
-                android:textColor="@color/dark_blue"
+                android:textColor="#152238"
                 android:textSize="14sp" />
 
             <TextView
@@ -56,7 +56,7 @@
                 android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
                 android:text="Priority"
-                android:textColor="@color/dark_blue"
+                android:textColor="#152238"
                 android:textSize="14sp" />
 
             <TextView
@@ -66,7 +66,7 @@
                 android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
                 android:text="Description"
-                android:textColor="@color/dark_blue"
+                android:textColor="#152238"
                 android:textSize="14sp" />
 
         </LinearLayout>
